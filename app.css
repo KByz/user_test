@@ -1,0 +1,52 @@
+body, h1, h2{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1{
+    padding: 10px;
+    background-color: salmon;
+}
+
+#userList{
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    float: left;
+    border: 1px solid salmon;
+}
+
+#userList h2{
+    padding: 10px;
+    margin: 0;
+    background-color: salmon;
+    color: #fff;
+}
+
+#userList li{
+    padding: 5px 10px;
+    border-top: 1px solid aqua;
+    cursor: pointer;
+    color: aquamarine;
+    font-style: italic;
+}
+
+#userList li:hover{
+    background-color: #727272;
+}
+
+#userDetails{
+    float: left;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid aquamarine;
+}
